@@ -1,0 +1,252 @@
+@import url('https://fonts.google.com/specimen/Figtree');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+}
+
+main{
+    width: 35%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 7px 7px;
+}
+
+.stg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.stg-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stg-1 img{
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.stg-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.stg-2 a{
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: hsl(47, 88%, 63%);
+    text-decoration: none;
+    color:hsl(0, 0%, 7%);
+    margin-left: 28px;
+    font-weight: 800;
+    border-radius: 5px;   
+    font-size: 13px;
+
+}
+
+.stg-2 b{
+    margin-left: 30px;
+    font-weight: 600;
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+}
+
+.stg-2 h1{
+    margin-left: 30px;
+    font-size: 28px;
+    font-weight: 600;
+    color: hsl(0, 0%, 7%);
+}
+
+.stg-2 h1:hover{
+    transition: 0.5s ease-in-out;
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+
+.stg-2 p{
+    margin-left: 30px;
+    font-size: 15px;
+    color: hsl(0, 0%, 50%);
+}
+
+.stg-3{
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+    gap: 30px;
+    position: relative;
+}
+
+.stg-3 h2{
+    font-size: large;
+    position: absolute;
+    top: 15px;
+    left: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE DESIGN */
+@media(max-width:450px){
+
+
+    
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+}
+
+main{
+    width: 80%;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 7px 7px;
+}
+
+.stg{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.stg-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stg-1 img{
+    width: 90%;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.stg-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.stg-2 a{
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: hsl(47, 88%, 63%);
+    text-decoration: none;
+    color:hsl(0, 0%, 7%);
+    margin-left: 28px;
+    font-weight: 800;
+    border-radius: 5px;   
+    font-size: 13px;
+
+}
+
+.stg-2 b{
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+}
+
+.stg-2 h1{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+}
+
+.stg-2 h1:hover{
+    transition: 0.5s ease-in-out;
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+
+.stg-2 p{
+    margin-left: 30px;
+    font-size: 15px;
+    color: hsl(0, 0%, 50%);
+}
+
+.stg-3{
+    width: 100%;
+    display: flex;
+    margin-left: 50px;
+    gap: 30px;
+    position: relative;
+}
+
+.stg-3 h2{
+    font-size: large;
+    position: absolute;
+    top: 15px;
+    left: 70px;
+}
+
+}
